@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="kr">
+	<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+<style>
+body {
+  background-color: ghostwhite;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Droid Sans', sans-serif;
+  color: gray;
+}
+body:before {
+  content: '';
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  bottom: 0px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 4px;
+  background-color: gray;
+}
+body .entries {
+  width: calc(100% - 80px);
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  left: -5px;
+}
+body .entries .entry {
+  width: calc(50% - 80px);
+  float: left;
+  padding: 20px;
+  clear: both;
+  text-align: right;
+}
+body .entries .entry:not(:first-child) {
+  margin-top: -60px;
+}
+body .entries .entry .title {
+  font-size: 32px;
+  margin-bottom: 12px;
+  position: relative;
+}
+body .entries .entry .title:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid gray;
+  background-color: ghostwhite;
+  border-radius: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: -73px;
+  z-index: 1000;
+}
+body .entries .entry .title.big:before {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: translate(8px, -50%);
+          transform: translate(8px, -50%);
+}
+body .entries .entry .body {
+  color: gray;
+}
+body .entries .entry .body p {
+  line-height: 1.4em;
+}
+body .entries .entry:nth-child(2n) {
+  text-align: left;
+  float: right;
+}
+body .entries .entry:nth-child(2n) .title {
+  font-size: 32px;
+}
+body .entries .entry:nth-child(2n) .title:before {
+  left: -63px;
+}
+body .entries .entry:nth-child(2n) .title.big:before {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: translate(-8px, -50%);
+          transform: translate(-8px, -50%);
+}
+
+</style>
+</head>
+<body>
+
+<span class="timeline">
+  <span class="entries">
+    <span class="entry">
+      <span class="title">1996</span>
+      <span class="body">
+        <p>경기도 성남시 출생</p>
+      </span>
+    </span>
+    <span class="entry">
+      <span class="title">2015</span>
+      <span class="body">
+        <p>경기도 구성고등학교 졸업</p>
+      </span>
+    </span>
+    <span class="entry">
+      <span class="title big">2015</span>
+      <span class="body">
+        <p>국립공주대학교 입학</p>
+      </span>
+    </span>
+    <span class="entry">
+      <span class="title">2017</span>
+      <span class="body">
+        <p>육군 7사단 만기 전역</p>
+      </span>
+    </span>
+    <span class="entry">
+      <span class="title">2018</span>
+      <span class="body">
+        <p>국립공주대학교 컴퓨터공학부 학생회 홍보국장</p>
+      </span>
+    </span>
+    <span class="entry">
+      <span class="title big">2019</span>
+      <span class="body">
+        <p>국립공주대학교 컴퓨터공학부 학생회 학생회장</p><br><br>
+        <p>당신의 이야기를 들려주세요</p>
+      </span>
+    </span>
+      </span>
+    </span>
+  </span>
+</span>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script type="text/javascript">
+</script>
+</body>
+</html>

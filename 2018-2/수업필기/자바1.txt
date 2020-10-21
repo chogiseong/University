@@ -1,0 +1,79 @@
+프로그래밍언어 사람과 컴퓨터의 격차를 없엔다.
+"문제해결"하기힘든것을 프로그램으로 해결
+
+c언어 java 등이 고급언어에 해당
+소스프로그램-컴파일러-기계어
+
+계산기와 컴퓨터의 차이
+계산기 지정된일만 가능(하드웨어로고정)
+컴퓨터 매순간 다른일가능(유동적)
+
+컴퓨터의 중심
+main memory
+
+c언어   - 전의 ab 언어에서 진화(범용성이 큰 언어)
+c++     - c언어를 더쉽게 만듬
+java    - 제임스 고슬링
+objectc - ios 전용
+python  - 빠르게하기위해
+
+전자레인지와 컴퓨터의 차이
+전자레인지 전기를 마이크로웨이브로 바꿔서 수분을 진동시켜서 가열
+컴퓨터     부팅 후 모니터프로그램을 실행시킴(rom 의 bios 프로그램 동작/ 하드웨어 체킹, 오퍼레이팅시스템을 설치 등)
+
+윈도우에서 bios에 주소를 적어주면 bios에서 윈도우를 실행시켜주고 작업 완료 - 마스터부팅레코드
+프로그램코드 -   컴   /   파   /    일   /    러     - 옵젝트코드
+    a         lexical/ syntax /  code   /  code            b
+            analyzer/analyzer/generater/optimizer
+                  PASS 1    /        PASS 2
+옵젝트코드를 프로그램코드로 바꾸는 프로그램은 없다.(매우어렵기때문)
+
+실행기(interpreted)(virtual machine) - a를받아서 컴퓨터에게 인식시키고 user에게 출력
+java는 코드와 jvm(java virtual machine)이있어야 호환이 용이하다. 그러므로 interpreted language이다.
+또한 java가 javac로 바꾼 결과물은 object code 가 아니므로 컴파일러 랭귀지가 아니다.
+jit(just in time)
+
+c= a+b; 배정문(assignment statement)메모리에 배정한다
+lhs(left hand side), rhs(right hand side)
+lhs 에는 값을 저장할 수 있는 메모리공간(memory space)이 들어가야한다.
+rhs 에는 저장할 값(value)이 들어가야한다.(상수/고정된값)
+memory space = memory space recall
+
+pointer변수
+메모리를 가변적으로 사용가능
+메모리를 많이 차지하지 않음
+
+프로그램실행시 순차적수행(sequential processing)
+1. 제어문(순서파괴/ if문, 반복문)
+2. 함수콜(ftn call)
+다른메모리공간을 침해하거나 call할때 작동중지될수있음
+
+number
+자연수(N)
+정수  (R)
+실수  (유리, 무리수)
+
+int(정수라는 뜻) a,b,c 등
+float(떠있다, "."으로 인해 가변적이라는 뜻)
+
+프로그램에서 수를 표현할때
+자연수만 표현할 수 있지만 -를사용해 정수표현가능
+
+자연수는 2bytes 
+정수는   4bytes(double 로 8bytes까지 가능)
+문자는   8bytes에 ASCII 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

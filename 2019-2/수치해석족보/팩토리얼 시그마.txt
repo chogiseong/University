@@ -1,0 +1,12 @@
+clear;
+
+
+Sum=1;
+for n=1:7
+	a=1;
+	for y=1:n
+		a=a/y;
+	end
+	Sum=Sum+a;
+end
+printf("%f",Sum);

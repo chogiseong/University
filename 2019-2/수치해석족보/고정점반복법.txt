@@ -1,0 +1,15 @@
+clear;
+
+function y=g(h)
+	y=(h^3-3*h^2+2*h+3)/2;
+endfunction
+
+a=1.5;
+for i=1:100
+	if (abs(g(a)-a)<0.001)
+		printf("%d , %f",i,a);
+		break;
+	else
+		a=g(a);
+	end
+end

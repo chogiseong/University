@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        나만의 플레이리스트
+    </title>
+</head>    
+  
+<body>    
+    <h1>좋아하는 곡 추가하기</h1>     
+    <input type="text" id="text_id" value="">       
+    <p></p>       
+    <button onclick=" add()">추가</button>       
+    <p id="music"></p>     
+    <script> 
+        function add() { 
+            var txt = document.getElementById("text_id").value; 
+            document.getElementById("music").innerHTML += "<br>" + txt;
+        } 
+
+$( document ).ready( function() {
+        $( 'button' ).click( function() {
+          $( 'p' ).empty();
+        } );
+      } );
+    </script>
+<button> 삭제 </button>
+</body>   
+</html>

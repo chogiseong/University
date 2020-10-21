@@ -1,0 +1,6 @@
+﻿1>------ 빌드 시작: 프로젝트: ConsoleApplication5, 구성: Debug Win32 ------
+1>소스.cpp
+1>c:\users\cgs07\source\repos\consoleapplication5\consoleapplication5\소스.cpp(122): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+1>ConsoleApplication5.vcxproj -> C:\Users\cgs07\source\repos\ConsoleApplication5\Debug\ConsoleApplication5.exe
+1>"ConsoleApplication5.vcxproj" 프로젝트를 빌드했습니다.
+========== 빌드: 성공 1, 실패 0, 최신 0, 생략 0 ==========

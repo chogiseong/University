@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>최대 공약수 구하기</title>
+</head>
+<body>
+  <script>
+    let gcd = 0;
+    let num = [];
+   
+    for(let i = 0; i < 2; i++)
+      num[i] = prompt("정수를 입력해주세요");
+    
+    for(let j = 1; j <= Math.min.apply(null, num); j++) { 
+      if ((Math.min.apply(null, num)%j == 0) && (Math.max.apply(null, num)%j == 0)) { 
+        gcd = j } 
+      }
+    
+    document.write(num[0] + "과 " + num[1] + "의 최대공약수는 " + gcd + "입니다.");
+  </script>
+</body>
+</html>

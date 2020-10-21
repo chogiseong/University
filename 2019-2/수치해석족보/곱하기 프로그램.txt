@@ -1,0 +1,10 @@
+clear;
+
+Sum=1;
+for n=1:30
+	Sum=Sum*n;
+	if Sum>1000
+		break;
+	end
+end
+printf("%d",n);

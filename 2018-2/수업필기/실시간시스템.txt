@@ -1,0 +1,26 @@
+4 tuple(1, 10, 3, 6)
+
+시작이 1
+주기가 10
+execution time 3
+relative deadline 6
+absolute deadline 주기 + 6
+
+== utilization
+
+(0(x), 10, 3, 6)
+시작이 0일때 생략가능
+
+(0(x), 10, 3, 0(x))
+relative deadline이 예측가능하기 때문에 생략가능
+
+hyper period
+
+frame사이즈 만족 조건
+첫번째 조건 + 두번쨰 + 세번째 까지 만족해야 프레임사이즈가 결정된다
+ex) 1. f={2,3,4,....20}
+    2. f={2,4,5,10,20}
+    3. f={
+
+
+

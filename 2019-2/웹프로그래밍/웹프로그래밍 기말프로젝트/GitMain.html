@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Git.JBJ</title>
+
+<script>
+function load(URL) 
+{
+window.open(URL, "myWin", "left=1000,top=1000,width=1000,height=1000");
+}
+</script>
+
+<style>
+header, section, aside, nav, footer { margin : 1%; padding : 1%;  }
+
+html, body { margin: 0; padding: 0; height: 100%; background: ghostwhite; }
+
+.header { margin : 5%; width: 100%; height: 1%; background: ghostwhite; }
+
+.section { width: 75%; height: 70%; background: ghostwhite; }
+
+.aside { width: 20%; height: 65%; float: right; background: ghostwhite; }
+
+.footer { width: 100%; height: 10%; clear: both; background: ghostwhite; }
+
+span { color : gray; font-size : 40px; }
+
+a:link {text-decoration: none; color: gray;}
+
+a:visited {text-decoration: none; color: gray;}
+
+a:active {text-decoration: none; color: gray;}
+
+a:hover {text-decoration: none; font-size: 17px; color: gray;}
+
+#topMenu { width: 100%; height: 10%;}
+
+#topMenu ul li {                       
+list-style: none;           
+color: gray;
+float: left;               
+background-color: ghostwhite;                  
+line-height: 40px;         
+vertical-align: middle;     
+text-align: center; }
+
+#topMenu .menuLink {                               
+text-decoration:none;                      
+color: gray;                              
+display: block;                            
+width: 300px;                              
+font-size: 20px;                           
+font-weight: bold;                         
+font-family: "Trebuchet MS", Dotum, Arial; }
+
+#topMenu .menuLink:hover {
+font-size: 25px;             
+color: gray;                   
+background-color: ghostwhite; }
+
+</style>
+
+</head>
+
+<body>
+<header class="header"><span>Git.JBJ</span></header>
+
+
+<nav id = "topMenu">
+<ul>
+<li><a class="menuLink" href="f1-1.html" target = "frame1">Data</a></li>
+<li><a class="menuLink" href="f2.html" target = "frame1">Collaboration</a></li>
+<li><a class="menuLink" href="f3.html" target = "frame1">Local Upload</a></li>
+<li><a class="menuLink" href="f4.html" target = "frame1">Server Upload</a></li>
+
+
+</ul>
+</nav>
+
+<aside class="aside">
+<h2><span>Tool</span></h2>
+<ul><br>
+<a href="javascript:load('http://www.kongju.ac.kr')"><h3> 국립공주대학교 </h3></a><br><br>
+<a href="javascript:load('https://portal.kongju.ac.kr')"><h3> 포털시스템 </h3></a><br><br>
+<a href="javascript:window.print()"><h3>프린트</h3></a><br><br>
+</ul>
+</li>
+</ul>
+<ul>
+</aside>
+
+<section class="section">
+<iframe src = "f1-1.html" name="frame1" height = "100%" width = "97%">
+<iframe src = "f2.html" name="frame1" height = "100%" width = "97%">
+<iframe src = "f3.html" name="frame1" height = "100%" width = "97%">
+<iframe src = "f4.html" name="frame1" height = "100%" width = "97%">
+</section>
+<br>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+clear;
+
+for a=1:1000
+Sum=0;
+	for b=a:1000
+		Sum=Sum+b;
+		if Sum==1000
+			printf("%d,%d\n",a,b);
+			
+		end
+        end
+end

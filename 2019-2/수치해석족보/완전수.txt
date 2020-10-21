@@ -1,0 +1,12 @@
+clear;
+for i=1:1000
+	Sum=0;
+	for a=1:i
+		if modulo(i,a)==0;
+			Sum=Sum+a;
+		end
+	end
+	if Sum==2*i;
+		printf("%d\n",i);
+	end
+end

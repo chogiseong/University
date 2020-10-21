@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4C7D5"
+    android:orientation="vertical"
+    tools:context=".Locationinfo">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnDial"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CED5DB"
+                android:text="긴급 전화" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="#CED5DB"
+                app:srcCompat="@android:drawable/ic_menu_call" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnSms"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#CED5DB"
+                android:text="긴급 문자" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="2"
+                android:background="#CED5DB"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnGoogle"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="#CED5DB"
+                android:text="구글 맵 열기" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="3"
+                android:background="#CED5DB"
+                app:srcCompat="@android:drawable/ic_menu_mapmode" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnWeb"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="#CED5DB"
+                android:text="사이버 경찰청" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_weight="4"
+                android:background="#CED5DB"
+                app:srcCompat="@android:drawable/ic_menu_share" />
+        </TableRow>
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/getLocation"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CED5DB"
+        android:text="위치 탐색 시작                " />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="현재 위치" />
+
+    <fragment
+        android:id="@+id/map1"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:cameraZoom="5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</LinearLayout>

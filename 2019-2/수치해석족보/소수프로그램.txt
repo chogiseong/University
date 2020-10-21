@@ -1,0 +1,31 @@
+clear;
+
+for i=1000:-1:1
+	count=0;
+	for a=1:i
+		if modulo(i,a)==0;
+			count=count+1;
+		end
+	end
+	if count==2;
+		break;
+	end
+end
+
+for t=1000:2000
+	count=0;
+	for a=1:t
+		if modulo(t,a)==0;
+			count=count+1;
+		end
+	end
+	if count==2;
+		break;
+	end
+end
+
+if (1000-i)>(t-1000)
+	printf("%d",t);
+else
+	printf("%d",i);
+end

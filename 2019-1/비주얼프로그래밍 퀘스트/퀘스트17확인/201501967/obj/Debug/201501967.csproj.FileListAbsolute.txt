@@ -1,0 +1,11 @@
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\bin\Debug\201501967.exe.config
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\bin\Debug\201501967.exe
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\bin\Debug\201501967.pdb
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\obj\Debug\201501967.csprojAssemblyReference.cache
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\obj\Debug\_201501967.Form1.resources
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\obj\Debug\_201501967.login.resources
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\obj\Debug\_201501967.Properties.Resources.resources
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\obj\Debug\201501967.csproj.GenerateResource.cache
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\obj\Debug\201501967.csproj.CoreCompileInputs.cache
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\obj\Debug\201501967.exe
+C:\Users\cgs07\Desktop\비주얼프로그래밍 퀘스트\퀘스트17확인\201501967\obj\Debug\201501967.pdb
